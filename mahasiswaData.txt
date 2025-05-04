@@ -1,0 +1,7 @@
+TIF0001 | Putra Nurhuda Makatita | Teknik Informatika | SMKN 12 Bandung | 2024-01-01 07:00:00 | -
+DKV0001 | Putra OK diedit | Desain Komunikasi Visual | SMK BDG | 2025-05-02 17:53:31 | 2025-05-04 15:52:22
+TID0002 | Putra TID | Teknik Industri | SMK BDG | 2025-05-02 17:53:43 | 2025-05-04 15:44:42
+TID0001 | Putra TID ini baru diedit | Teknik Industri | SMK BDG | 2025-05-02 17:53:54 | 2025-05-04 15:48:02
+DKV0003 | Dwi saputra | Desain Komunikasi Visual | PAKET D | 2025-05-03 22:26:26 | -
+TIF0002 | Mahasiswa Teknik Info | Teknik Informatika | SMK Teknik Info | 2025-05-04 15:52:04 | -
+TIF0003 | Maba | Teknik Informatika | SMK Guna Bangsa | 2025-05-04 16:50:54 | -
