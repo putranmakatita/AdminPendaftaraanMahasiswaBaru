@@ -1,0 +1,4 @@
+TIF0001 | Putra Nurhuda Makatita | Teknik Informatika | SMKN 12 Bandung | 2025-05-05 19:51:02 | -
+TIF0002 | Roprop | Teknik Informatika | SMKN 1 Garut | 2025-05-05 19:51:20 | 2025-05-05 19:51:36
+TIF0003 | pram | Teknik Informatika | SMA 10 | 2025-05-05 19:52:10 | 2025-05-05 19:52:24
+TIF0004 | Dwi Budi Fitri Ada | Teknik Informatika | SMK Negeri 1 CIPEUNDEUY | 2025-05-05 20:52:37 | 2025-05-05 20:56:44

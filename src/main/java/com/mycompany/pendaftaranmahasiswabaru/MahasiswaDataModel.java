@@ -83,20 +83,16 @@ public class MahasiswaDataModel {
             JOptionPane.showMessageDialog(null, validation046);
             return false;
         }
-
         try {
             File file046 = new File(fileName046);
             Scanner reader046 = new Scanner(file046);
             ArrayList<String> updatedLines046 = new ArrayList<>();
-
             boolean found046 = false;
 
             while (reader046.hasNextLine()) {
                 String line046 = reader046.nextLine();
                 String[] parts046 = line046.split(" \\| ");
-
                 if (parts046[0].equals(nim)) {
-
                     // jika ada perubahan jurusan maka nim perlu dibuat baru sesuai dengan
                     // jurusannya
                     if (!jurusan.equals(parts046[2])) {
@@ -107,7 +103,6 @@ public class MahasiswaDataModel {
                         }
                         nim = newNim046;
                     }
-
                     found046 = true;
                     String newLine046 = nim + " | " + nama + " | " + jurusan + " | " + asalSekolah + " | " + parts046[4]
                             + " | " + getDateTimeNow();
@@ -117,12 +112,10 @@ public class MahasiswaDataModel {
                 }
             }
             reader046.close();
-
             if (!found046) {
                 JOptionPane.showMessageDialog(null, "Data dengan NIM " + nim + " tidak ditemukan.");
                 return false;
             }
-
             FileWriter writer046 = new FileWriter(fileName046, false);
             for (String updatedLine046 : updatedLines046) {
                 writer046.write(updatedLine046 + "\n");
