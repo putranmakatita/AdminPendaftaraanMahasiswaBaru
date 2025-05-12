@@ -153,9 +153,6 @@
               <TableHeader reorderingAllowed="false" resizingAllowed="true"/>
             </Property>
           </Properties>
-          <Events>
-            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="mahasiswaTable046MouseClicked"/>
-          </Events>
         </Component>
       </SubComponents>
     </Container>
@@ -185,7 +182,6 @@
     </Component>
     <Component class="javax.swing.JTextField" name="searchField046">
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="searchField046ActionPerformed"/>
         <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="searchField046KeyReleased"/>
       </Events>
     </Component>
@@ -202,7 +198,7 @@
             <StringItem index="1" value="Nama"/>
             <StringItem index="2" value="Jurusan"/>
             <StringItem index="3" value="Asal Sekolah"/>
-            <StringItem index="4" value="Waktu Pendaftaraan"/>
+            <StringItem index="4" value="Waktu Pendaftaran"/>
             <StringItem index="5" value="Waktu Penyuntingan"/>
           </StringArray>
         </Property>
